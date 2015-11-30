@@ -2,7 +2,11 @@ Pjscrape Extension
 
 Helper extension to write Pjscrape scrapers in the browser.
 
-Features
+## Install
+
+Download repository to a folder on computer. Open Chrome Extension panel and load from source.
+
+## Features
 
    * Syntax highlighting provided via the ACE editor http://ace.ajax.org/
    * Command+Enter or Shift+Enter to run the current script
