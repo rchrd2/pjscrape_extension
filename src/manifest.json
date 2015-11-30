@@ -1,0 +1,15 @@
+{
+	"manifest_version": 2,
+	"name": "Pjscrape Editor",
+	"version": "0.0.2",
+	"description": "",
+	"devtools_page": "panel.html",
+	"icons": {},
+	"minimum_chrome_version" : "18",
+	"content_security_policy": "script-src 'self'; object-src 'self'",
+	"permissions": [
+		"tabs",
+		"activeTab",
+		"contextMenus"
+	]
+}
