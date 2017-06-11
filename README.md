@@ -1,6 +1,6 @@
-Pjscrape Extension
+Pjservice Extension
 
-Helper extension to write Pjscrape scrapers in the browser.
+Helper extension to write Pjservice scrapers in the browser.
 
 ## Install
 
@@ -15,6 +15,3 @@ Released under the MIT License
 
 Derived from this example code:
 https://github.com/avalanche1/CoffeeConsole2
-
-Includes source code from:
-https://github.com/nrabinowitz/pjscrape
