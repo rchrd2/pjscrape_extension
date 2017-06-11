@@ -20,8 +20,10 @@ function compileIt() {
     };
 
     var eval_src = "";
-    eval_src += "function __define(m) {console.table(m.scraper());}";
     eval_src += getScript('bootstrap.js');
+    // NOTE for some reason $ = jQuery is necessary.
+    eval_src += 'window.$ = window.jQuery;';
+    eval_src += 'function __define(m) {console.table(m.scraper());}';
     eval_src += editor.session.getValue().replace("define(", "__define(");
 
     chrome.devtools.inspectedWindow["eval"](eval_src, function(result, exception) {
